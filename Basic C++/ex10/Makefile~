@@ -1,0 +1,7 @@
+CXX=g++
+
+ex08: ex09.cpp
+	$(CXX) ex09.cpp addTwoInts.cpp -o ex09
+
+clean:
+	rm ex09 *~
